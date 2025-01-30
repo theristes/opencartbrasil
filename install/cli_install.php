@@ -158,9 +158,9 @@ function check_requirements($options) {
 		'pgsql'
 	);
 
-	if (!in_array($options['db_driver'], $db_drivers)) {
-		return 'Atenção: Não há suporte para o driver "' . $options['db_driver'] . '" de banco de dados!';
-	}
+	// if (!in_array($options['db_driver'], $db_drivers)) {
+	// 	return 'Atenção: Não há suporte para o driver "' . $options['db_driver'] . '" de banco de dados!';
+	// }
 
 	if (!extension_loaded($options['db_driver'])) {
 		return 'Atenção: A extensão "' . $options['db_driver'] . '" precisa estar habilitada para o OpenCart Brasil funcionar!';
