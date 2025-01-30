@@ -140,9 +140,9 @@ function install($options) {
 }
 
 function check_requirements($options) {
-	if (version_compare(phpversion(), '5.6', '<') || version_compare(phpversion(), '8.0', '>=')) {
-		return 'Atenção: Você precisa utilizar PHP 5.6 até 7.4 para o projeto OpenCart Brasil funcionar!';
-	}
+	// if (version_compare(phpversion(), '5.6', '<') || version_compare(phpversion(), '8.0', '>=')) {
+	// 	return 'Atenção: Você precisa utilizar PHP 5.6 até 7.4 para o projeto OpenCart Brasil funcionar!';
+	// }
 
 	if (!ini_get('file_uploads')) {
 		return 'Atenção: A opção "file_uploads" precisa ser ativada nas configurações do PHP!';
