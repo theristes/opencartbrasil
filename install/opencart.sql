@@ -1052,7 +1052,7 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'US Dollar', 'USD', '$', '', '2', 4.28000000, 1, '2018-09-08 08:00:00'),
+-- (1, 'US Dollar', 'USD', '$', '', '2', 4.28000000, 1, '2018-09-08 08:00:00'),
 (2, 'Real', 'BRL', 'R$', '', '2', 1.00000000, 1, '2018-09-08 18:00:00');
 
 -----------------------------------------------------------
@@ -1855,7 +1855,7 @@ CREATE TABLE `oc_language` (
 --
 
 INSERT INTO `oc_language` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `sort_order`, `status`) VALUES
-(1, 'English', 'en-gb', 'en-US,en_US.UTF-8,en_US,en-gb,english', 'en-gb.png', 'en-gb', 1, 1),
+-- (1, 'English', 'en-gb', 'en-US,en_US.UTF-8,en_US,en-gb,english', 'en-gb.png', 'en-gb', 1, 1),
 (2, 'Português', 'pt-br', 'pt-BR,pt_BR.UTF-8,pt_BR,pt-br,portuguese', 'pt-br.png', 'pt-br', 1, 1);
 
 -----------------------------------------------------------
