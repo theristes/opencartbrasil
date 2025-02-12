@@ -267,20 +267,21 @@ INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `t
 VALUES
 (1, 2, 1, 'iPhone 6', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/iPhone6.jpg', 0)
 , (2, 1, 1, 'HP Banner', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/compaq_presario.jpg', 0)
+, (15, 2, 2, 'iPhone 6', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/iPhone6.jpg', 0)
+, (16, 1, 2, 'HP Banner', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/compaq_presario.jpg', 0)
+
+
 , (3, 3, 1, 'NFL', '', 'catalog/demo/manufacturer/nfl.png', 0)
 , (4, 3, 1, 'RedBull', '', 'catalog/demo/manufacturer/redbull.png', 0)
 , (5, 3, 1, 'Sony', '', 'catalog/demo/manufacturer/sony.png', 0)
 , (6, 3, 1, 'Coca Cola', '', 'catalog/demo/manufacturer/cocacola.png', 0)
-,  (7, 3, 1, 'Burger King', '', 'catalog/demo/manufacturer/burgerking.png', 0)
+, (7, 3, 1, 'Burger King', '', 'catalog/demo/manufacturer/burgerking.png', 0)
 , (8, 3, 1, 'Canon', '', 'catalog/demo/manufacturer/canon.png', 0)
 , (9, 3, 1, 'Harley Davidson', '', 'catalog/demo/manufacturer/harley.png', 0)
 , (10, 3, 1, 'Dell', '', 'catalog/demo/manufacturer/dell.png', 0)
 , (11, 3, 1, 'Disney', '', 'catalog/demo/manufacturer/disney.png', 0)
-, (12, 2, 1, 'MacBookAir', '', 'catalog/demo/banners/MacBookAir.jpg', 0)
 , (13, 3, 1, 'Starbucks', '', 'catalog/demo/manufacturer/starbucks.png', 0)
 , (14, 3, 1, 'Nintendo', '', 'catalog/demo/manufacturer/nintendo.png', 0)
-, (15, 2, 2, 'iPhone 6', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/iPhone6.jpg', 0)
-, (16, 1, 2, 'HP Banner', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/compaq_presario.jpg', 0)
 , (17, 3, 2, 'NFL', '', 'catalog/demo/manufacturer/nfl.png', 0)
 , (18, 3, 2, 'RedBull', '', 'catalog/demo/manufacturer/redbull.png', 0)
 , (19, 3, 2, 'Sony', '', 'catalog/demo/manufacturer/sony.png', 0)
@@ -290,7 +291,6 @@ VALUES
 , (23, 3, 2, 'Harley Davidson', '', 'catalog/demo/manufacturer/harley.png', 0)
 , (24, 3, 2, 'Dell', '', 'catalog/demo/manufacturer/dell.png', 0)
 , (25, 3, 2, 'Disney', '', 'catalog/demo/manufacturer/disney.png', 0)
-, (26, 2, 2, 'MacBookAir', '', 'catalog/demo/banners/MacBookAir.jpg', 0)
 , (27, 3, 2, 'Starbucks', '', 'catalog/demo/manufacturer/starbucks.png', 0)
 , (28, 3, 2, 'Nintendo', '', 'catalog/demo/manufacturer/nintendo.png', 0)
 ;
