@@ -1589,9 +1589,9 @@ CREATE TABLE `oc_extension` (
 
 INSERT INTO `oc_extension` (`extension_id`, `type`, `code`) VALUES
 (1, 'payment', 'cod'),                            -- Cash on Delivery (for payment on pickup)
-(3, 'total', 'sub_total'),                        -- Subtotal
-(4, 'total', 'tax'),                              -- Tax
-(5, 'total', 'total'),                            -- Total
+-- (3, 'total', 'sub_total'),                        -- Subtotal
+-- (4, 'total', 'tax'),                              -- Tax
+-- (5, 'total', 'total'),                            -- Total
 (17, 'payment', 'free_checkout'),                 -- Free Checkout (Pickup method)
 (20, 'theme', 'default'),                         -- Default theme
 (24, 'dashboard', 'order'),                       -- Order dashboard (for viewing orders)
