@@ -1586,6 +1586,7 @@ CREATE TABLE `oc_extension` (
 --
 -- Dumping data for table `oc_extension`
 --
+
 INSERT INTO `oc_extension` (`extension_id`, `type`, `code`) VALUES
 (1, 'payment', 'cod'),                            -- Cash on Delivery (for payment on pickup)
 (3, 'total', 'sub_total'),                        -- Subtotal
@@ -1597,8 +1598,7 @@ INSERT INTO `oc_extension` (`extension_id`, `type`, `code`) VALUES
 (36, 'report', 'sale_order'),                     -- Sale Order report (for sales data)
 (37, 'report', 'sale_shipping'),                  -- Sale shipping report (can track shipping)
 (38, 'report', 'sale_tax'),                       -- Sale tax report
-(40, 'report', 'customer_order');                 -- Customer order report
-
+(40, 'report', 'customer_order');      
 
 -----------------------------------------------------------
 
