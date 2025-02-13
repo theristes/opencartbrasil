@@ -1596,7 +1596,7 @@ INSERT INTO `oc_extension` (`extension_id`, `type`, `code`) VALUES
 (20, 'theme', 'default'),                         -- Default theme
 (24, 'dashboard', 'order'),                       -- Order dashboard (for viewing orders)
 (36, 'report', 'sale_order'),                     -- Sale Order report (for sales data)
-(37, 'report', 'sale_shipping'),                  -- Sale shipping report (can track shipping)
+-- (37, 'report', 'sale_shipping'),                  -- Sale shipping report (can track shipping)
 (38, 'report', 'sale_tax'),                       -- Sale tax report
 (40, 'report', 'customer_order');      
 
