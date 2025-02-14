@@ -1052,7 +1052,6 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'US Dollar', 'USD', '$', '', '2', 4.28000000, 1, '2018-09-08 08:00:00'),
 (2, 'Real', 'BRL', 'R$', '', '2', 1.00000000, 1, '2018-09-08 18:00:00');
 
 -----------------------------------------------------------
