@@ -266,32 +266,46 @@ CREATE TABLE `oc_banner_image` (
 INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `image`, `sort_order`) VALUES
 (1, 2, 1, 'iPhone 6', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/iPhone6.jpg', 0),
 (2, 1, 1, 'HP Banner', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/compaq_presario.jpg', 0),
-(3, 3, 1, 'NFL', '', 'catalog/demo/manufacturer/nfl.png', 0),
-(4, 3, 1, 'RedBull', '', 'catalog/demo/manufacturer/redbull.png', 0),
-(5, 3, 1, 'Sony', '', 'catalog/demo/manufacturer/sony.png', 0),
-(6, 3, 1, 'Coca Cola', '', 'catalog/demo/manufacturer/cocacola.png', 0),
-(7, 3, 1, 'Burger King', '', 'catalog/demo/manufacturer/burgerking.png', 0),
-(8, 3, 1, 'Canon', '', 'catalog/demo/manufacturer/canon.png', 0),
-(9, 3, 1, 'Harley Davidson', '', 'catalog/demo/manufacturer/harley.png', 0),
-(10, 3, 1, 'Dell', '', 'catalog/demo/manufacturer/dell.png', 0),
-(11, 3, 1, 'Disney', '', 'catalog/demo/manufacturer/disney.png', 0),
-(12, 2, 1, 'MacBookAir', '', 'catalog/demo/banners/MacBookAir.jpg', 0),
-(13, 3, 1, 'Starbucks', '', 'catalog/demo/manufacturer/starbucks.png', 0),
-(14, 3, 1, 'Nintendo', '', 'catalog/demo/manufacturer/nintendo.png', 0),
 (15, 2, 2, 'iPhone 6', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/iPhone6.jpg', 0),
 (16, 1, 2, 'HP Banner', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/compaq_presario.jpg', 0),
-(17, 3, 2, 'NFL', '', 'catalog/demo/manufacturer/nfl.png', 0),
-(18, 3, 2, 'RedBull', '', 'catalog/demo/manufacturer/redbull.png', 0),
-(19, 3, 2, 'Sony', '', 'catalog/demo/manufacturer/sony.png', 0),
-(20, 3, 2, 'Coca Cola', '', 'catalog/demo/manufacturer/cocacola.png', 0),
-(21, 3, 2, 'Burger King', '', 'catalog/demo/manufacturer/burgerking.png', 0),
-(22, 3, 2, 'Canon', '', 'catalog/demo/manufacturer/canon.png', 0),
-(23, 3, 2, 'Harley Davidson', '', 'catalog/demo/manufacturer/harley.png', 0),
-(24, 3, 2, 'Dell', '', 'catalog/demo/manufacturer/dell.png', 0),
-(25, 3, 2, 'Disney', '', 'catalog/demo/manufacturer/disney.png', 0),
-(26, 2, 2, 'MacBookAir', '', 'catalog/demo/banners/MacBookAir.jpg', 0),
-(27, 3, 2, 'Starbucks', '', 'catalog/demo/manufacturer/starbucks.png', 0),
-(28, 3, 2, 'Nintendo', '', 'catalog/demo/manufacturer/nintendo.png', 0);
+
+
+(3, 3, 1, 'Ache', '', 'catalog/demo/manufacturer/ache.png', 0),
+(4, 3, 1, 'Bioderna', '', 'catalog/demo/manufacturer/bioderna.png', 0),
+(5, 3, 1, 'Centrum', '', 'catalog/demo/manufacturer/centrum.png', 0),
+(6, 3, 1, 'Colgate', '', 'catalog/demo/manufacturer/colgate.png', 0),
+(7, 3, 1, 'Dove', '', 'catalog/demo/manufacturer/dove.png', 0),
+(8, 3, 1, 'Ems', '', 'catalog/demo/manufacturer/ems.png', 0),
+(9, 3, 1, 'Equaliv', '', 'catalog/demo/manufacturer/equaliv.png', 0),
+(10, 3, 1, 'Eurofarma', '', 'catalog/demo/manufacturer/eurofarma.png', 0),
+(11, 3, 1, 'Granado', '', 'catalog/demo/manufacturer/granado.png', 0),
+(12, 3, 1, 'La Roche Posay', '', 'catalog/demo/banners/la-roche-posay.png', 0),
+(13, 3, 1, 'Medley', '', 'catalog/demo/manufacturer/medley.png', 0),
+(14, 3, 1, 'Nivea', '', 'catalog/demo/manufacturer/nivea.png', 0),
+(17, 3, 2, 'Ache', '', 'catalog/demo/manufacturer/ache.png', 0),
+(18, 3, 2, 'Bioderna', '', 'catalog/demo/manufacturer/bioderna.png', 0),
+(19, 3, 2, 'Centrum', '', 'catalog/demo/manufacturer/centrum.png', 0),
+(20, 3, 2, 'Colgate', '', 'catalog/demo/manufacturer/colgate.png', 0),
+(21, 3, 2, 'Dove', '', 'catalog/demo/manufacturer/dove.png', 0),
+(22, 3, 2, 'Ems', '', 'catalog/demo/manufacturer/ems.png', 0),
+(23, 3, 2, 'Equaliv', '', 'catalog/demo/manufacturer/equaliv.png', 0),
+(24, 3, 2, 'Eurofarma', '', 'catalog/demo/manufacturer/eurofarma.png', 0),
+(25, 3, 2, 'Granado', '', 'catalog/demo/manufacturer/granado.png', 0),
+(26, 3, 2, 'La Roche Posay', '', 'catalog/demo/banners/la-roche-posay.png', 0),
+(27, 3, 2, 'Medley', '', 'catalog/demo/manufacturer/medley.png', 0),
+(28, 3, 2, 'Nivea', '', 'catalog/demo/manufacturer/nivea.png', 0);
+
+(29, 3, 1, 'Oral B', '', 'catalog/demo/manufacturer/oral-b.png', 0);
+(30, 3, 2, 'Oral B', '', 'catalog/demo/manufacturer/oral-b.png', 0);
+
+(31, 3, 1, 'Pharmaton', '', 'catalog/demo/manufacturer/pharmaton.png', 0);
+(32, 3, 2, 'Pharmaton', '', 'catalog/demo/manufacturer/pharmaton.png', 0);
+
+(33, 3, 1, 'Rexona', '', 'catalog/demo/manufacturer/rexona.png', 0);
+(34, 3, 2, 'Rexona', '', 'catalog/demo/manufacturer/rexona.png', 0);
+
+(35, 3, 1, 'Vichy', '', 'catalog/demo/manufacturer/vichy.png', 0);
+(36, 3, 2, 'Vichy', '', 'catalog/demo/manufacturer/vichy.png', 0);
 
 -----------------------------------------------------------
 
@@ -2047,7 +2061,7 @@ INSERT INTO `oc_manufacturer` (`manufacturer_id`, `name`, `image`, `sort_order`)
 (7, 'HP', 'catalog/demo/hp_logo.jpg', 0),
 (8, 'Apple', 'catalog/demo/apple_logo.jpg', 0),
 (9, 'Canon', 'catalog/demo/canon_logo.jpg', 0),
-(10, 'Sony', 'catalog/demo/sony_logo.jpg', 0);
+(10, 'centrum', 'catalog/demo/centrum_logo.jpg', 0);
 
 -----------------------------------------------------------
 
@@ -2691,7 +2705,7 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `ncm`, `cest`, `upc`, `e
 (43, 'Produto 16', '', '', '', '', '', '', '', '', '', 929, 5, 'catalog/demo/macbook_1.jpg', 8, 0, '500.0000', 0, 0, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:07:49', '2011-09-30 01:05:46'),
 (44, 'Produto 17', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/macbook_air_1.jpg', 8, 1, '1000.0000', 0, 0, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:00', '2011-09-30 01:05:53'),
 (45, 'Produto 18', '', '', '', '', '', '', '', '', '', 998, 5, 'catalog/demo/macbook_pro_1.jpg', 8, 1, '2000.0000', 0, 0, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:17', '2011-09-15 22:22:01'),
-(46, 'Produto 19', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/sony_vaio_1.jpg', 10, 1, '1000.0000', 0, 0, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:29', '2011-09-30 01:06:39'),
+(46, 'Produto 19', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/centrum_vaio_1.jpg', 10, 1, '1000.0000', 0, 0, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:29', '2011-09-30 01:06:39'),
 (47, 'Produto 21', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/hp_1.jpg', 7, 1, '100.0000', 400, 0, '2009-02-03', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 0, 1, 0, 1, 0, '2009-02-03 21:08:40', '2011-09-30 01:05:28'),
 (48, 'Produto 20', '', '', '', '', '', '', '', '', '', 995, 5, 'catalog/demo/ipod_classic_1.jpg', 8, 1, '100.0000', 0, 0, '2009-02-08', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-08 17:21:51', '2011-09-30 01:07:06'),
 (49, 'SAMSUNGTAB1', '', '', '', '', '', '', '', '', '', 0, 8, 'catalog/demo/samsung_tab_1.jpg', 0, 1, '199.9900', 0, 0, '2011-04-25', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, 1, '2011-04-26 08:57:34', '2011-09-30 01:06:23');
@@ -2756,7 +2770,7 @@ INSERT INTO `oc_product_description` (`product_id`, `language_id`, `name`, `desc
 (45, 1, 'MacBook Pro', '&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n	&lt;div&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Latest Intel mobile architecture&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Powered by the most advanced mobile processors from Intel, the new Core 2 Duo MacBook Pro is over 50% faster than the original Core Duo MacBook Pro and now supports up to 4GB of RAM.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Leading-edge graphics&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			The NVIDIA GeForce 8600M GT delivers exceptional graphics processing power. For the ultimate creative canvas, you can even configure the 17-inch model with a 1920-by-1200 resolution display.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Designed for life on the road&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Innovations such as a magnetic power connection and an illuminated keyboard with ambient light sensor put the MacBook Pro in a class by itself.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Connect. Create. Communicate.&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Quickly set up a video conference with the built-in iSight camera. Control presentations and media from up to 30 feet away with the included Apple Remote. Connect to high-bandwidth peripherals with FireWire 800 and DVI.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Next-generation wireless&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Featuring 802.11n wireless technology, the MacBook Pro delivers up to five times the performance and up to twice the range of previous-generation technologies.&lt;/p&gt;\r\n	&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;', '', 'MacBook Pro', '', ''),
 (29, 1, 'Palm Treo Pro', '&lt;p&gt;\r\n	Redefine your workday with the Palm Treo Pro smartphone. Perfectly balanced, you can respond to business and personal email, stay on top of appointments and contacts, and use Wi-Fi or GPS when you&amp;rsquo;re out and about. Then watch a video on YouTube, catch up with news and sports on the web, or listen to a few songs. Balance your work and play the way you like it, with the Palm Treo Pro.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Windows Mobile&amp;reg; 6.1 Professional Edition&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Qualcomm&amp;reg; MSM7201 400MHz Processor&lt;/li&gt;\r\n	&lt;li&gt;\r\n		320x320 transflective colour TFT touchscreen&lt;/li&gt;\r\n	&lt;li&gt;\r\n		HSDPA/UMTS/EDGE/GPRS/GSM radio&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Tri-band UMTS &amp;mdash; 850MHz, 1900MHz, 2100MHz&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Quad-band GSM &amp;mdash; 850/900/1800/1900&lt;/li&gt;\r\n	&lt;li&gt;\r\n		802.11b/g with WPA, WPA2, and 801.1x authentication&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Built-in GPS&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Bluetooth Version: 2.0 + Enhanced Data Rate&lt;/li&gt;\r\n	&lt;li&gt;\r\n		256MB storage (100MB user available), 128MB RAM&lt;/li&gt;\r\n	&lt;li&gt;\r\n		2.0 megapixel camera, up to 8x digital zoom and video capture&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Removable, rechargeable 1500mAh lithium-ion battery&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Up to 5.0 hours talk time and up to 250 hours standby&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MicroSDHC card expansion (up to 32GB supported)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MicroUSB 2.0 for synchronization and charging&lt;/li&gt;\r\n	&lt;li&gt;\r\n		3.5mm stereo headset jack&lt;/li&gt;\r\n	&lt;li&gt;\r\n		60mm (W) x 114mm (L) x 13.5mm (D) / 133g&lt;/li&gt;\r\n&lt;/ul&gt;\r\n', '', 'Palm Treo Pro', '', ''),
 (36, 1, 'iPod Nano', '&lt;div&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Video in your pocket.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Its the small iPod with one very big idea: video. The worlds most popular music player now lets you enjoy movies, TV shows, and more on a two-inch display thats 65% brighter than before.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Cover Flow.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Browse through your music collection by flipping through album art. Select an album to turn it over and see the track list.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Enhanced interface.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Experience a whole new way to browse and view your music and video.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Sleek and colorful.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		With an anodized aluminum and polished stainless steel enclosure and a choice of five colors, iPod nano is dressed to impress.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;iTunes.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Available as a free download, iTunes makes it easy to browse and buy millions of songs, movies, TV shows, audiobooks, and games and download free podcasts all at the iTunes Store. And you can import your own music, manage your whole media library, and sync your iPod or iPhone with ease.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', 'iPod Nano', '', ''),
-(46, 1, 'Sony VAIO', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'Sony VAIO', '', ''),
+(46, 1, 'centrum VAIO', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'centrum VAIO', '', ''),
 (47, 1, 'HP LP3065', '&lt;p&gt;\r\n	Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you&amp;#39;re at the office&lt;/p&gt;\r\n', '', 'HP LP3065', '', ''),
 (32, 1, 'iPod Touch', '&lt;p&gt;\r\n	&lt;strong&gt;Revolutionary multi-touch interface.&lt;/strong&gt;&lt;br /&gt;\r\n	iPod touch features the same multi-touch screen technology as iPhone. Pinch to zoom in on a photo. Scroll through your songs and videos with a flick. Flip through your library by album artwork with Cover Flow.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Gorgeous 3.5-inch widescreen display.&lt;/strong&gt;&lt;br /&gt;\r\n	Watch your movies, TV shows, and photos come alive with bright, vivid color on the 320-by-480-pixel display.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Music downloads straight from iTunes.&lt;/strong&gt;&lt;br /&gt;\r\n	Shop the iTunes Wi-Fi Music Store from anywhere with Wi-Fi.1 Browse or search to find the music youre looking for, preview it, and buy it with just a tap.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Surf the web with Wi-Fi.&lt;/strong&gt;&lt;br /&gt;\r\n	Browse the web using Safari and watch YouTube videos on the first iPod with Wi-Fi built in&lt;br /&gt;\r\n	&amp;nbsp;&lt;/p&gt;\r\n', '', '	 iPod Touch', '', ''),
 (41, 1, 'iMac', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there&acute;s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife &acute;08, and it&acute;s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'iMac', '', ''),
@@ -2775,7 +2789,7 @@ INSERT INTO `oc_product_description` (`product_id`, `language_id`, `name`, `desc
 (45, 2, 'MacBook Pro', '&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n	&lt;div&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Latest Intel mobile architecture&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Powered by the most advanced mobile processors from Intel, the new Core 2 Duo MacBook Pro is over 50% faster than the original Core Duo MacBook Pro and now supports up to 4GB of RAM.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Leading-edge graphics&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			The NVIDIA GeForce 8600M GT delivers exceptional graphics processing power. For the ultimate creative canvas, you can even configure the 17-inch model with a 1920-by-1200 resolution display.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Designed for life on the road&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Innovations such as a magnetic power connection and an illuminated keyboard with ambient light sensor put the MacBook Pro in a class by itself.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Connect. Create. Communicate.&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Quickly set up a video conference with the built-in iSight camera. Control presentations and media from up to 30 feet away with the included Apple Remote. Connect to high-bandwidth peripherals with FireWire 800 and DVI.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Next-generation wireless&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Featuring 802.11n wireless technology, the MacBook Pro delivers up to five times the performance and up to twice the range of previous-generation technologies.&lt;/p&gt;\r\n	&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;', '', 'MacBook Pro', '', ''),
 (29, 2, 'Palm Treo Pro', '&lt;p&gt;\r\n	Redefine your workday with the Palm Treo Pro smartphone. Perfectly balanced, you can respond to business and personal email, stay on top of appointments and contacts, and use Wi-Fi or GPS when you&amp;rsquo;re out and about. Then watch a video on YouTube, catch up with news and sports on the web, or listen to a few songs. Balance your work and play the way you like it, with the Palm Treo Pro.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Windows Mobile&amp;reg; 6.1 Professional Edition&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Qualcomm&amp;reg; MSM7201 400MHz Processor&lt;/li&gt;\r\n	&lt;li&gt;\r\n		320x320 transflective colour TFT touchscreen&lt;/li&gt;\r\n	&lt;li&gt;\r\n		HSDPA/UMTS/EDGE/GPRS/GSM radio&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Tri-band UMTS &amp;mdash; 850MHz, 1900MHz, 2100MHz&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Quad-band GSM &amp;mdash; 850/900/1800/1900&lt;/li&gt;\r\n	&lt;li&gt;\r\n		802.11b/g with WPA, WPA2, and 801.1x authentication&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Built-in GPS&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Bluetooth Version: 2.0 + Enhanced Data Rate&lt;/li&gt;\r\n	&lt;li&gt;\r\n		256MB storage (100MB user available), 128MB RAM&lt;/li&gt;\r\n	&lt;li&gt;\r\n		2.0 megapixel camera, up to 8x digital zoom and video capture&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Removable, rechargeable 1500mAh lithium-ion battery&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Up to 5.0 hours talk time and up to 250 hours standby&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MicroSDHC card expansion (up to 32GB supported)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MicroUSB 2.0 for synchronization and charging&lt;/li&gt;\r\n	&lt;li&gt;\r\n		3.5mm stereo headset jack&lt;/li&gt;\r\n	&lt;li&gt;\r\n		60mm (W) x 114mm (L) x 13.5mm (D) / 133g&lt;/li&gt;\r\n&lt;/ul&gt;\r\n', '', 'Palm Treo Pro', '', ''),
 (36, 2, 'iPod Nano', '&lt;div&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Video in your pocket.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Its the small iPod with one very big idea: video. The worlds most popular music player now lets you enjoy movies, TV shows, and more on a two-inch display thats 65% brighter than before.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Cover Flow.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Browse through your music collection by flipping through album art. Select an album to turn it over and see the track list.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Enhanced interface.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Experience a whole new way to browse and view your music and video.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Sleek and colorful.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		With an anodized aluminum and polished stainless steel enclosure and a choice of five colors, iPod nano is dressed to impress.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;iTunes.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Available as a free download, iTunes makes it easy to browse and buy millions of songs, movies, TV shows, audiobooks, and games and download free podcasts all at the iTunes Store. And you can import your own music, manage your whole media library, and sync your iPod or iPhone with ease.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', 'iPod Nano', '', ''),
-(46, 2, 'Sony VAIO', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'Sony VAIO', '', ''),
+(46, 2, 'centrum VAIO', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'centrum VAIO', '', ''),
 (47, 2, 'HP LP3065', '&lt;p&gt;\r\n	Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you&amp;#39;re at the office&lt;/p&gt;\r\n', '', 'HP LP3065', '', ''),
 (32, 2, 'iPod Touch', '&lt;p&gt;\r\n	&lt;strong&gt;Revolutionary multi-touch interface.&lt;/strong&gt;&lt;br /&gt;\r\n	iPod touch features the same multi-touch screen technology as iPhone. Pinch to zoom in on a photo. Scroll through your songs and videos with a flick. Flip through your library by album artwork with Cover Flow.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Gorgeous 3.5-inch widescreen display.&lt;/strong&gt;&lt;br /&gt;\r\n	Watch your movies, TV shows, and photos come alive with bright, vivid color on the 320-by-480-pixel display.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Music downloads straight from iTunes.&lt;/strong&gt;&lt;br /&gt;\r\n	Shop the iTunes Wi-Fi Music Store from anywhere with Wi-Fi.1 Browse or search to find the music youre looking for, preview it, and buy it with just a tap.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Surf the web with Wi-Fi.&lt;/strong&gt;&lt;br /&gt;\r\n	Browse the web using Safari and watch YouTube videos on the first iPod with Wi-Fi built in&lt;br /&gt;\r\n	&amp;nbsp;&lt;/p&gt;\r\n', '', '	 iPod Touch', '', ''),
 (41, 2, 'iMac', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there&acute;s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife &acute;08, and it&acute;s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'iMac', '', ''),
@@ -2871,8 +2885,8 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (19, 31, 'catalog/demo/nikon_d300_3.jpg', 0),
 (20, 31, 'catalog/demo/nikon_d300_2.jpg', 0),
 (21, 29, 'catalog/demo/palm_treo_pro_3.jpg', 0),
-(22, 46, 'catalog/demo/sony_vaio_5.jpg', 0),
-(23, 46, 'catalog/demo/sony_vaio_4.jpg', 0),
+(22, 46, 'catalog/demo/centrum_vaio_5.jpg', 0),
+(23, 46, 'catalog/demo/centrum_vaio_4.jpg', 0),
 (24, 48, 'catalog/demo/ipod_classic_4.jpg', 0),
 (25, 48, 'catalog/demo/ipod_classic_3.jpg', 0),
 (26, 40, 'catalog/demo/iphone_2.jpg', 0),
@@ -2898,8 +2912,8 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (46, 31, 'catalog/demo/nikon_d300_4.jpg', 0),
 (47, 31, 'catalog/demo/nikon_d300_5.jpg', 0),
 (48, 29, 'catalog/demo/palm_treo_pro_2.jpg', 0),
-(49, 46, 'catalog/demo/sony_vaio_2.jpg', 0),
-(50, 46, 'catalog/demo/sony_vaio_3.jpg', 0),
+(49, 46, 'catalog/demo/centrum_vaio_2.jpg', 0),
+(50, 46, 'catalog/demo/centrum_vaio_3.jpg', 0),
 (51, 49, 'catalog/demo/samsung_tab_7.jpg', 0),
 (52, 49, 'catalog/demo/samsung_tab_6.jpg', 0),
 (53, 49, 'catalog/demo/samsung_tab_5.jpg', 0),
@@ -3902,7 +3916,7 @@ INSERT INTO `oc_seo_url` (`seo_url_id`, `store_id`, `language_id`, `query`, `key
 (51, 0, 1, 'product_id=35', 'product-8-en'),
 (52, 0, 1, 'product_id=49', 'samsung-galaxy-tab-10-1-en'),
 (53, 0, 1, 'product_id=33', 'samsung-syncmaster-941bw-en'),
-(54, 0, 1, 'product_id=46', 'sony-vaio-en'),
+(54, 0, 1, 'product_id=46', 'centrum-vaio-en'),
 (55, 0, 1, 'product_id=41', 'imac-en'),
 (56, 0, 1, 'product_id=40', 'iphone-en'),
 (57, 0, 1, 'product_id=36', 'ipod-nano-en'),
@@ -3912,7 +3926,7 @@ INSERT INTO `oc_seo_url` (`seo_url_id`, `store_id`, `language_id`, `query`, `key
 (61, 0, 1, 'manufacturer_id=5', 'htc-en'),
 (62, 0, 1, 'manufacturer_id=7', 'hewlett-packard-en'),
 (63, 0, 1, 'manufacturer_id=6', 'palm-en'),
-(64, 0, 1, 'manufacturer_id=10', 'sony-en'),
+(64, 0, 1, 'manufacturer_id=10', 'centrum-en'),
 (65, 0, 1, 'information_id=6', 'delivery-en'),
 (66, 0, 1, 'information_id=3', 'privacy-en'),
 (67, 0, 1, 'information_id=5', 'terms-en'),
@@ -3969,7 +3983,7 @@ INSERT INTO `oc_seo_url` (`seo_url_id`, `store_id`, `language_id`, `query`, `key
 (118, 0, 2, 'product_id=35', 'produto-8-br'),
 (119, 0, 2, 'product_id=49', 'samsung-galaxy-tab-10-1-br'),
 (120, 0, 2, 'product_id=33', 'samsung-syncmaster-941bw-br'),
-(121, 0, 2, 'product_id=46', 'sony-vaio-br'),
+(121, 0, 2, 'product_id=46', 'centrum-vaio-br'),
 (122, 0, 2, 'product_id=41', 'imac-br'),
 (123, 0, 2, 'product_id=40', 'iphone-br'),
 (124, 0, 2, 'product_id=36', 'ipod-nano-br'),
@@ -3979,7 +3993,7 @@ INSERT INTO `oc_seo_url` (`seo_url_id`, `store_id`, `language_id`, `query`, `key
 (128, 0, 2, 'manufacturer_id=5', 'htc-br'),
 (129, 0, 2, 'manufacturer_id=7', 'hewlett-packard-br'),
 (130, 0, 2, 'manufacturer_id=6', 'palm-br'),
-(131, 0, 2, 'manufacturer_id=10', 'sony-br'),
+(131, 0, 2, 'manufacturer_id=10', 'centrum-br'),
 (132, 0, 2, 'information_id=6', 'politica-entrega-br'),
 (133, 0, 2, 'information_id=3', 'politica-privacidade-br'),
 (134, 0, 2, 'information_id=5', 'termos-condicoes-br');
