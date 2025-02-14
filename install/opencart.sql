@@ -293,18 +293,18 @@ INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `t
 (25, 3, 2, 'Granado', '', 'catalog/demo/manufacturer/granado.png', 0),
 (26, 3, 2, 'La Roche Posay', '', 'catalog/demo/banners/la-roche-posay.png', 0),
 (27, 3, 2, 'Medley', '', 'catalog/demo/manufacturer/medley.png', 0),
-(28, 3, 2, 'Nivea', '', 'catalog/demo/manufacturer/nivea.png', 0);
+(28, 3, 2, 'Nivea', '', 'catalog/demo/manufacturer/nivea.png', 0),
 
-(29, 3, 1, 'Oral B', '', 'catalog/demo/manufacturer/oral-b.png', 0);
-(30, 3, 2, 'Oral B', '', 'catalog/demo/manufacturer/oral-b.png', 0);
+(29, 3, 1, 'Oral B', '', 'catalog/demo/manufacturer/oral-b.png', 0),
+(30, 3, 2, 'Oral B', '', 'catalog/demo/manufacturer/oral-b.png', 0),
 
-(31, 3, 1, 'Pharmaton', '', 'catalog/demo/manufacturer/pharmaton.png', 0);
-(32, 3, 2, 'Pharmaton', '', 'catalog/demo/manufacturer/pharmaton.png', 0);
+(31, 3, 1, 'Pharmaton', '', 'catalog/demo/manufacturer/pharmaton.png', 0),
+(32, 3, 2, 'Pharmaton', '', 'catalog/demo/manufacturer/pharmaton.png', 0),
 
-(33, 3, 1, 'Rexona', '', 'catalog/demo/manufacturer/rexona.png', 0);
-(34, 3, 2, 'Rexona', '', 'catalog/demo/manufacturer/rexona.png', 0);
+(33, 3, 1, 'Rexona', '', 'catalog/demo/manufacturer/rexona.png', 0),
+(34, 3, 2, 'Rexona', '', 'catalog/demo/manufacturer/rexona.png', 0),
 
-(35, 3, 1, 'Vichy', '', 'catalog/demo/manufacturer/vichy.png', 0);
+(35, 3, 1, 'Vichy', '', 'catalog/demo/manufacturer/vichy.png', 0),
 (36, 3, 2, 'Vichy', '', 'catalog/demo/manufacturer/vichy.png', 0);
 
 -----------------------------------------------------------
