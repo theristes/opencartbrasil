@@ -264,10 +264,10 @@ CREATE TABLE `oc_banner_image` (
 --
 
 INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `image`, `sort_order`) VALUES
-(1, 2, 1, 'Gillette', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/gillette.jpg', 0),
-(2, 1, 1, 'Koleston', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/koleston.jpg', 0),
-(15, 2, 2, 'Gillette', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/gillette.jpg', 0),
-(16, 1, 2, 'Koleston', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/koleston.jpg', 0),
+(1, 2, 1, 'Gillette', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/gillette.png', 0),
+(2, 1, 1, 'Koleston', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/koleston.png', 0),
+(15, 2, 2, 'Gillette', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/gillette.png', 0),
+(16, 1, 2, 'Koleston', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/koleston.png', 0),
 
 
 (3, 3, 1, 'Ache', '', 'catalog/demo/manufacturer/ache.png', 0),
