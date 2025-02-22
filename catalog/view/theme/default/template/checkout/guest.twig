@@ -1,7 +1,6 @@
 <div class="row">
   <div class="col-sm-6">
     <fieldset id="account">
-      <H1>GUEEST</H1>
       <legend>{{ text_your_details }}</legend>
       <div class="form-group" style="display: {% if customer_groups|length > 1 %} block {% else %} none {% endif %};">
         <label class="control-label">{{ entry_customer_group }}</label>
@@ -39,6 +38,10 @@
         <label class="control-label" for="input-payment-telephone">{{ entry_telephone }}</label>
         <input type="text" name="telephone" value="{{ telephone }}" placeholder="{{ entry_telephone }}" id="input-payment-telephone" class="form-control" />
       </div>
+    
+
+
+
       {% for custom_field in custom_fields %}
       {% if custom_field.location == 'account' %}
       {% if custom_field.type == 'select' %}
@@ -153,7 +156,7 @@
       {% endfor %}
     </fieldset>
   </div>
-  <div class="col-sm-6">
+  {# <div class="col-sm-6">
     <fieldset id="address">
       <legend>{{ text_your_address }}</legend>
       <div class="form-group">
@@ -306,7 +309,7 @@
       {% endfor %}
     </fieldset>
     {{ captcha }}
-  </div>
+  </div> #}
 </div>
 {% if shipping_required %}
 <div class="checkbox">

@@ -20,7 +20,6 @@
       <h1>{{ heading_title }}</h1>
       <p>{{ text_account_already }}</p>
       <form action="{{ action }}" method="post" enctype="multipart/form-data" class="form-horizontal">
-        <H1>ACCOUNT</H1>
         <fieldset id="account">
           <legend>{{ text_your_details }}</legend>
           <div class="form-group required" style="display: {% if customer_groups|length > 1 %} block {% else %} none {% endif %};">
