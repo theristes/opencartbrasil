@@ -141,15 +141,6 @@ CREATE TABLE `oc_attribute` (
   PRIMARY KEY (`attribute_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Dumping data for table `oc_attribute`
---
-
-INSERT INTO `oc_attribute` (`attribute_id`, `attribute_group_id`, `sort_order`) VALUES
-(1, 1, 1),
-(2, 1, 2),
-(3, 1, 3);
-
 -----------------------------------------------------------
 
 --
@@ -210,13 +201,6 @@ CREATE TABLE `oc_attribute_group_description` (
   PRIMARY KEY (`attribute_group_id`,`language_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Dumping data for table `oc_attribute_group_description`
---
-
-INSERT INTO `oc_attribute_group_description` (`attribute_group_id`, `language_id`, `name`) VALUES
-(1, 1, 'Technical'),
-(1, 2, 'Informações técnicas');
 
 -----------------------------------------------------------
 
@@ -236,10 +220,7 @@ CREATE TABLE `oc_banner` (
 -- Dumping data for table `oc_banner`
 --
 
-INSERT INTO `oc_banner` (`banner_id`, `name`, `status`) VALUES
-(1, 'Produtos HP', 1),
-(2, 'Slideshow na Home', 1),
-(3, 'Fabricantes', 1);
+INSERT INTO `oc_banner` (`banner_id`, `name`, `status`) VALUES (2, 'Slideshow na Home', 1);
 
 -----------------------------------------------------------
 
@@ -264,8 +245,9 @@ CREATE TABLE `oc_banner_image` (
 --
 
 INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `image`, `sort_order`) VALUES
-(1, 2, 1, 'Gillette', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/gillette.png', 0),
-(15, 2, 2, 'Koleston', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/koleston.png', 0),
+(15, 2, 2, 'Gillette', 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/demo/banners/gillette.png', 0),
+(16, 2, 2, 'Koleston', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/banners/koleston.png', 0),
+
 
 (3, 3, 1, 'Ache', '', 'catalog/demo/manufacturer/ache.png', 0),
 (4, 3, 1, 'Bioderna', '', 'catalog/demo/manufacturer/bioderna.png', 0),
@@ -364,31 +346,9 @@ INSERT INTO `oc_category` (`category_id`, `image`, `parent_id`, `top`, `column`,
 (31, '', 25, 0, 0, 1, 1, '2009-02-03 14:17:24', '2010-08-22 06:33:06'),
 (32, '', 25, 0, 0, 1, 1, '2009-02-03 14:17:34', '2010-08-22 06:33:12'),
 (33, '', 0, 1, 1, 6, 1, '2009-02-03 14:17:55', '2011-05-30 12:15:25'),
-(34, 'catalog/demo/ipod_touch_4.jpg', 0, 1, 4, 7, 1, '2009-02-03 14:18:11', '2011-05-30 12:15:31'),
-(35, '', 28, 0, 0, 0, 1, '2010-09-17 10:06:48', '2010-09-18 14:02:42'),
-(36, '', 28, 0, 0, 0, 1, '2010-09-17 10:07:13', '2010-09-18 14:02:55'),
-(37, '', 34, 0, 0, 0, 1, '2010-09-18 14:03:39', '2011-04-22 01:55:08'),
-(38, '', 34, 0, 0, 0, 1, '2010-09-18 14:03:51', '2010-09-18 14:03:51'),
-(39, '', 34, 0, 0, 0, 1, '2010-09-18 14:04:17', '2011-04-22 01:55:20'),
-(40, '', 34, 0, 0, 0, 1, '2010-09-18 14:05:36', '2010-09-18 14:05:36'),
-(41, '', 34, 0, 0, 0, 1, '2010-09-18 14:05:49', '2011-04-22 01:55:30'),
-(42, '', 34, 0, 0, 0, 1, '2010-09-18 14:06:34', '2010-11-07 20:31:04'),
-(43, '', 34, 0, 0, 0, 1, '2010-09-18 14:06:49', '2011-04-22 01:55:40'),
-(44, '', 34, 0, 0, 0, 1, '2010-09-21 15:39:21', '2010-11-07 20:30:55'),
 (45, '', 18, 0, 0, 0, 1, '2010-09-24 18:29:16', '2011-04-26 08:52:11'),
 (46, '', 18, 0, 0, 0, 1, '2010-09-24 18:29:31', '2011-04-26 08:52:23'),
-(47, '', 34, 0, 0, 0, 1, '2010-11-07 11:13:16', '2010-11-07 11:13:16'),
-(48, '', 34, 0, 0, 0, 1, '2010-11-07 11:13:33', '2010-11-07 11:13:33'),
-(49, '', 34, 0, 0, 0, 1, '2010-11-07 11:14:04', '2010-11-07 11:14:04'),
-(50, '', 34, 0, 0, 0, 1, '2010-11-07 11:14:23', '2011-04-22 01:16:01'),
-(51, '', 34, 0, 0, 0, 1, '2010-11-07 11:14:38', '2011-04-22 01:16:13'),
-(52, '', 34, 0, 0, 0, 1, '2010-11-07 11:16:09', '2011-04-22 01:54:57'),
-(53, '', 34, 0, 0, 0, 1, '2010-11-07 11:28:53', '2011-04-22 01:14:36'),
-(54, '', 34, 0, 0, 0, 1, '2010-11-07 11:29:16', '2011-04-22 01:16:50'),
-(55, '', 34, 0, 0, 0, 1, '2010-11-08 10:31:32', '2010-11-08 10:31:32'),
-(56, '', 34, 0, 0, 0, 1, '2010-11-08 10:31:50', '2011-04-22 01:16:37'),
-(57, '', 0, 1, 1, 3, 1, '2011-04-26 08:53:16', '2011-05-30 12:15:05'),
-(58, '', 52, 0, 0, 0, 1, '2011-05-08 13:44:16', '2011-05-08 13:44:16');
+(57, '', 0, 1, 1, 3, 1, '2011-04-26 08:53:16', '2011-05-30 12:15:05');
 
 -----------------------------------------------------------
 
@@ -426,32 +386,9 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (25, 1, 'Components', '', 'Components', '', ''),
 (24, 1, 'Cell Phones', '', 'Cell Phones', '', ''),
 (20, 1, 'Desktops', '&lt;p&gt;\r\n Example of category description &lt;/p&gt;\r\n', 'Desktops', 'Example of category meta description', ''),
-(35, 1, 'Subcategory 1', '', 'Subcategory 1', '', ''),
-(36, 1, 'Subcategory 2', '', 'Subcategory 2', '', ''),
-(37, 1, 'Subcategory 5', '', 'Subcategory 5', '', ''),
-(38, 1, 'Subcategory 4', '', 'Subcategory 4', '', ''),
-(39, 1, 'Subcategory 6', '', 'Subcategory 6', '', ''),
-(40, 1, 'Subcategory 7', '', 'Subcategory 7', '', ''),
-(41, 1, 'Subcategory 8', '', 'Subcategory 8', '', ''),
-(42, 1, 'Subcategory 9', '', 'Subcategory 9', '', ''),
-(43, 1, 'Subcategory 11', '', 'Subcategory 11', '', ''),
-(34, 1, 'MP3 Players', '&lt;p&gt;\r\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. &lt;/p&gt;\r\n', 'MP3 Players', '', ''),
-(18, 1, 'Notebooks', '&lt;p&gt;\r\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. &lt;/p&gt;\r\n', 'Notebooks', '', ''),
-(44, 1, 'Subcategory 12', '', 'Subcategory 12', '', ''),
 (45, 1, 'Windows', '', 'Windows', '', ''),
 (46, 1, 'Macs', '', 'Macs', '', ''),
-(47, 1, 'Subcategory 15', '', 'Subcategory 15', '', ''),
-(48, 1, 'Subcategory 16', '', 'Subcategory 16', '', ''),
-(49, 1, 'Subcategory 17', '', 'Subcategory 17', '', ''),
-(50, 1, 'Subcategory 18', '', 'Subcategory 18', '', ''),
-(51, 1, 'Subcategory 19', '', 'Subcategory 19', '', ''),
-(52, 1, 'Subcategory 20', '', 'Subcategory 20', '', ''),
-(53, 1, 'Subcategory 21', '', 'Subcategory 21', '', ''),
-(54, 1, 'Subcategory 22', '', 'Subcategory 22', '', ''),
-(55, 1, 'Subcategory 23', '', 'Subcategory 23', '', ''),
-(56, 1, 'Subcategory 24', '', 'Subcategory 24', '', ''),
 (57, 1, 'Tablets', '', 'Tablets', '', ''),
-(58, 1, 'Subcategory 25', '', 'Subcategory 25', '', ''),
 (28, 2, 'Monitores', '', 'Monitores', '', ''),
 (33, 2, 'Câmeras', '', 'Câmeras', '', ''),
 (32, 2, 'Webcams', '', 'Webcams', '', ''),
@@ -464,32 +401,10 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (25, 2, 'Componentes', '', 'Componentes', '', ''),
 (24, 2, 'Celulares', '', 'Celulares', '', ''),
 (20, 2, 'Desktops', '&lt;p&gt;\r\n Exemplo de descrição na categoria &lt;/p&gt;\r\n', 'Desktops', 'Exemplo de meta descrição na categoria', ''),
-(35, 2, 'Subcategoria 1', '', 'Subcategoria 1', '', ''),
-(36, 2, 'Subcategoria 2', '', 'Subcategoria 2', '', ''),
-(37, 2, 'Subcategoria 5', '', 'Subcategoria 5', '', ''),
-(38, 2, 'Subcategoria 4', '', 'Subcategoria 4', '', ''),
-(39, 2, 'Subcategoria 6', '', 'Subcategoria 6', '', ''),
-(40, 2, 'Subcategoria 7', '', 'Subcategoria 7', '', ''),
-(41, 2, 'Subcategoria 8', '', 'Subcategoria 8', '', ''),
-(42, 2, 'Subcategoria 9', '', 'Subcategoria 9', '', ''),
-(43, 2, 'Subcategoria 11', '', 'Subcategoria 11', '', ''),
-(34, 2, 'MP3 Players', '&lt;p&gt;\r\n Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. &lt;/p&gt;\r\n', 'MP3 Players', '', ''),
 (18, 2, 'Notebooks', '&lt;p&gt;\r\n Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. &lt;/p&gt;\r\n', 'Notebooks', '', ''),
-(44, 2, 'Subcategoria 12', '', 'Subcategoria 12', '', ''),
 (45, 2, 'Windows', '', 'Windows', '', ''),
 (46, 2, 'Macs', '', 'Macs', '', ''),
-(47, 2, 'Subcategoria 15', '', 'Subcategoria 15', '', ''),
-(48, 2, 'Subcategoria 16', '', 'Subcategoria 16', '', ''),
-(49, 2, 'Subcategoria 17', '', 'Subcategoria 17', '', ''),
-(50, 2, 'Subcategoria 18', '', 'Subcategoria 18', '', ''),
-(51, 2, 'Subcategoria 19', '', 'Subcategoria 19', '', ''),
-(52, 2, 'Subcategoria 20', '', 'Subcategoria 20', '', ''),
-(53, 2, 'Subcategoria 21', '', 'Subcategoria 21', '', ''),
-(54, 2, 'Subcategoria 22', '', 'Subcategoria 22', '', ''),
-(55, 2, 'Subcategoria 23', '', 'Subcategoria 23', '', ''),
-(56, 2, 'Subcategoria 24', '', 'Subcategoria 24', '', ''),
-(57, 2, 'Tablets', '', 'Tablets', '', ''),
-(58, 2, 'Subcategoria 25', '', 'Subcategoria 25', '', '');
+(57, 2, 'Tablets', '', 'Tablets', '', '');
 
 -----------------------------------------------------------
 
@@ -518,82 +433,7 @@ CREATE TABLE `oc_category_path` (
   PRIMARY KEY (`category_id`,`path_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Dumping data for table `oc_category_path`
---
 
-INSERT INTO `oc_category_path` (`category_id`, `path_id`, `level`) VALUES
-(25, 25, 0),
-(28, 25, 0),
-(28, 28, 1),
-(35, 25, 0),
-(35, 28, 1),
-(35, 35, 2),
-(36, 25, 0),
-(36, 28, 1),
-(36, 36, 2),
-(29, 25, 0),
-(29, 29, 1),
-(30, 25, 0),
-(30, 30, 1),
-(31, 25, 0),
-(31, 31, 1),
-(32, 25, 0),
-(32, 32, 1),
-(20, 20, 0),
-(27, 20, 0),
-(27, 27, 1),
-(26, 20, 0),
-(26, 26, 1),
-(24, 24, 0),
-(18, 18, 0),
-(45, 18, 0),
-(45, 45, 1),
-(46, 18, 0),
-(46, 46, 1),
-(17, 17, 0),
-(33, 33, 0),
-(34, 34, 0),
-(37, 34, 0),
-(37, 37, 1),
-(38, 34, 0),
-(38, 38, 1),
-(39, 34, 0),
-(39, 39, 1),
-(40, 34, 0),
-(40, 40, 1),
-(41, 34, 0),
-(41, 41, 1),
-(42, 34, 0),
-(42, 42, 1),
-(43, 34, 0),
-(43, 43, 1),
-(44, 34, 0),
-(44, 44, 1),
-(47, 34, 0),
-(47, 47, 1),
-(48, 34, 0),
-(48, 48, 1),
-(49, 34, 0),
-(49, 49, 1),
-(50, 34, 0),
-(50, 50, 1),
-(51, 34, 0),
-(51, 51, 1),
-(52, 34, 0),
-(52, 52, 1),
-(58, 34, 0),
-(58, 52, 1),
-(58, 58, 2),
-(53, 34, 0),
-(53, 53, 1),
-(54, 34, 0),
-(54, 54, 1),
-(55, 34, 0),
-(55, 55, 1),
-(56, 34, 0),
-(56, 56, 1),
-(57, 57, 0);
 
 -----------------------------------------------------------
 
@@ -640,31 +480,9 @@ INSERT INTO `oc_category_to_store` (`category_id`, `store_id`) VALUES
 (31, 0),
 (32, 0),
 (33, 0),
-(34, 0),
-(35, 0),
-(36, 0),
-(37, 0),
-(38, 0),
-(39, 0),
-(40, 0),
-(41, 0),
-(42, 0),
-(43, 0),
-(44, 0),
 (45, 0),
 (46, 0),
-(47, 0),
-(48, 0),
-(49, 0),
-(50, 0),
-(51, 0),
-(52, 0),
-(53, 0),
-(54, 0),
-(55, 0),
-(56, 0),
-(57, 0),
-(58, 0);
+(57, 0);
 
 -----------------------------------------------------------
 
@@ -778,13 +596,6 @@ CREATE TABLE `oc_cron` (
   PRIMARY KEY (`cron_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Dumping data for table `oc_cron`
---
-
-INSERT INTO `oc_cron` (`cron_id`, `code`, `cycle`, `action`, `status`, `date_added`, `date_modified`) VALUES
-(1, 'currency', 'day', 'cron/currency', 1, '2021-06-25 14:40:00', '2021-06-05 14:40:00'),
-(3, 'session', 'day', 'cron/session', 1, '2021-06-25 14:40:00', '2021-06-05 14:40:00');
 
 -----------------------------------------------------------
 
@@ -964,7 +775,6 @@ CREATE TABLE `oc_customer_group_description` (
 --
 
 INSERT INTO `oc_customer_group_description` (`customer_group_id`, `language_id`, `name`, `description`) VALUES
-(1, 1, 'Default', ''),
 (1, 2, 'Padrão', '');
 
 -----------------------------------------------------------
@@ -2604,9 +2414,7 @@ CREATE TABLE `oc_product_image` (
   KEY `product_id` (`product_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
---
--- Dumping data for table `oc_product_image`
---
+
 
 INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort_order`) VALUES
 (1, 30, 'catalog/demo/canon_eos_5d_2.jpg', 0),
