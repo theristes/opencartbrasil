@@ -8,7 +8,7 @@ $_['text_remove']              = 'Você modificou seu carrinho de compras.';
 $_['text_login']               = 'Atenção: Você necessita <a href="%s">acessar</a> sua conta ou <a href="%s">cadastrar-se</a> para ver os preços.';
 $_['text_items']               = '%s - %s';
 $_['text_points']              = 'Pontos: %s';
-$_['text_next']                = 'O que você deseja?';
+$_['text_next']                = 'O que você?';
 $_['text_next_choice']         = 'Clique na opção abaixo:';
 $_['text_empty']               = 'Seu carrinho de compras está vazio.';
 $_['text_day']                 = 'Diária';
