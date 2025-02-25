@@ -3840,7 +3840,8 @@ INSERT INTO `oc_zone` (`zone_id`, `country_id`, `name`, `code`, `status`) VALUES
 (463, 30, 'Santa Catarina', 'SC', 1),
 (464, 30, 'São Paulo', 'SP', 1),
 (465, 30, 'Sergipe', 'SE', 1),
-(466, 30, 'Tocantins', 'TO', 1);
+(466, 30, 'Tocantins', 'TO', 1),
+(-1, 30, 'Sem Zona Especifica', 'BR', 1);
 
 -----------------------------------------------------------
 
