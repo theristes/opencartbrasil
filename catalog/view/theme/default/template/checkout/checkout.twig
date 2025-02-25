@@ -138,13 +138,7 @@
                         $('#collapse-checkout-option')
                         .parent()
                         .find('.panel-heading .panel-title')
-                        .html(`
-                                <a href="#collapse-checkout-option" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle">
-                                    {{ text_checkout_option }}
-                                    <i class="fa fa-caret-down">
-                                    </i>
-                                </a>
-                        `);
+                        .html('<a href="#collapse-checkout-option" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle">{{ text_checkout_option }}<i class="fa fa-caret-down"></i></a>');
                         $('a[href=\'#collapse-checkout-option\']').trigger('click');
                     }
                 , error: 
@@ -181,14 +175,7 @@
                                         $('#collapse-detail-account')
                                         .parent()
                                         .find('.panel-heading .panel-title')
-                                        .html(`
-                                            <a  href="#collapse-detail-account" 
-                                                data-toggle="collapse" 
-                                                data-parent="#accordion"
-                                                    class="accordion-toggle">
-                                                    {{ text_checkout_account }} 
-                                                    <i class="fa fa-caret-down"></i>
-                                            </a>`);
+                                        .html('<a  href="#collapse-detail-account" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"> {{ text_checkout_account }} <i class="fa fa-caret-down"></i> </a>');
                                     } else {
                                         $('#collapse-detail-account').parent().find('.panel-heading .panel-title').html('<a href="#collapse-detail-account" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle">{{ text_checkout_payment_address }} <i class="fa fa-caret-down"></i></a>');
                                     }
